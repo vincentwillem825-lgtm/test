@@ -1,0 +1,16 @@
+[
+  {
+    "id": "image1",
+    "file": "media/image1.jpg",
+    "tags": ["ad", "facebook"],
+    "title": "Example Image",
+    "description": "Short description"
+  },
+  {
+    "id": "video1",
+    "file": "media/video1.mp4",
+    "tags": ["video", "promo"],
+    "title": "Example Video",
+    "description": "Short description"
+  }
+]
