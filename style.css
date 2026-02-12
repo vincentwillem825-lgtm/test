@@ -1,1 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
 
+#media-list div {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
