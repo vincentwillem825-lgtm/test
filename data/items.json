@@ -1,7 +1,7 @@
 [
   {
     "id": "image1",
-    "file": "media/image.jpg",
+    "file": "media/image.png",
     "tags": ["ad", "facebook"],
     "title": "Example Image",
     "description": "Short description"
