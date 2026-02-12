@@ -27,3 +27,17 @@ function renderItems(list) {
     container.appendChild(el);
   });
 }
+
+// Filtering by tag
+const filterInput = document.getElementById("tag-filter");
+filterInput.addEventListener("input", () => {
+  const tag = filterInput.value.trim().toLowerCase();
+  if (!tag) {
+    renderItems(window.items);
+  } else {
+    const filtered = window.items.filter(item =>
+      item.tags.some(t => t.toLowerCase().includes(tag))
+    );
+    renderItems(filtered);
+  }
+});
